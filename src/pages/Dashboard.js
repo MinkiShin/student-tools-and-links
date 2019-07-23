@@ -31,6 +31,7 @@ function AdminForm() {
           type="text"
           value={title}
           onChange={ev => setTitle(ev.target.value)}
+          placeholder="title"
         />
         <label>Link</label>
         <input
