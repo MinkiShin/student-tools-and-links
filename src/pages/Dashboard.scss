@@ -1,0 +1,54 @@
+.DashBoard {
+  .admin-form {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    
+    form {
+      border: 1px solid lightgray;
+      border-radius: 20px;
+      padding: 20px;
+      width: 60%;
+    }
+  }
+
+  .featured {
+    border: 3px double salmon;
+    margin: 0 30px;
+    .entry {
+      height: auto;
+
+      .logo {
+        height: 80px;
+      }
+    }
+  }
+
+  .entry {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+    height: 50px;
+    padding: 10px;
+
+
+    .logo {
+      height: 40px;
+    }
+
+    .content {
+      flex-grow: 1;
+      padding: 0 20px;
+
+      .title {}
+      .text {
+        font-size: 11px;
+      }
+    }
+
+    .up {
+      border: 1px solid lightgray;
+    }
+  }
+}
